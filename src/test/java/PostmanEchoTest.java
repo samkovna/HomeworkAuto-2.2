@@ -21,7 +21,7 @@ public class PostmanEchoTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("today is bad day"))
+                .body("data", equalTo("today is beautiful day"))
         ;
     }
 }
